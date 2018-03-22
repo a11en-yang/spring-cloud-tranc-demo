@@ -7,10 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="allen-cloud-tranc-demo" />
+        <module name="dps-common" />
+        <module name="dps-event-driven" />
+        <module name="dps-tcc-driven" />
+        <module name="ms-eureka-register" />
+        <module name="ms-order" />
+        <module name="ms-product" />
+        <module name="ms-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="allen-cloud-tranc-demo" target="1.5" />
+      <module name="dps-common" target="1.8" />
+      <module name="dps-event-driven" target="1.8" />
+      <module name="dps-tcc-driven" target="1.8" />
+      <module name="ms-eureka-register" target="1.8" />
+      <module name="ms-order" target="1.8" />
+      <module name="ms-product" target="1.8" />
+      <module name="ms-user" target="1.8" />
+      <module name="spring-cloud-tranc-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
